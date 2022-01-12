@@ -92,7 +92,7 @@ function secondHalfOfArrayIfItIsEven(fruits)
  */
 function youGottaCalmDown(shout) {
   // Your code here
-  return shout.slice(0,shout.indexOf("!")+1)
+  return shout.slice(0,shout.indexOf("!") + 1);
 }
 
 module.exports = {
